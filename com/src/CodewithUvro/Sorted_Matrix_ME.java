@@ -1,5 +1,5 @@
 package CodewithUvro;
-
+// brute force approach naive solution dont implement
 import java.util.ArrayList;
 
 // Question link : https://leetcode.com/problems/search-a-2d-matrix/

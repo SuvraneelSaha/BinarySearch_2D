@@ -23,7 +23,7 @@ public class Two_Sorted_Row_Col_Matrix {
     {
         // starting position will be the first row
         int row = 0 ;
-        int col = matrix.length-1;
+        int col = matrix.length-1; // cause we are taking the index value
         // ending position will be the last column
 
         // condition for the while loop will be
