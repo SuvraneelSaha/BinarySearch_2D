@@ -69,4 +69,11 @@ public class Sorted_Matrix_ME {
         return -1;
     }
 }
-// runtime -  4 ms, faster than 5.12% of Java online submissions for Search a 2D Matrix. 
+// runtime -  4 ms, faster than 5.12% of Java online submissions for Search a 2D Matrix.
+// SO WHAT WE LEARNED
+// 1] HOW TO USE ARRAYLIST
+// 2] TRANSFERRING THE ELEMENTS OF A 2D ARRAY INTO AN ARRAYLIST
+// 3] THEN TRANSFERRING THE ELEMENTS INTO AN ARRAY
+// 4] SEARCHING FOR THE TARGET ELEMENT IN THE NEW ARRAY BY USING BINARY SEARCH
+// THIS TECHNIQUE IS VERY LOW LEVEL - BRUTE FORCE
+
