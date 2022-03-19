@@ -2,7 +2,7 @@ package CodewithUvro;
 
 import java.util.Arrays;
 
-public class Two_Sorted_Matrix {
+public class Two_Sorted_Row_Col_Matrix {
     public static void main(String[] args) {
         // row wise sorted matrix
         // column wise sorted matrix

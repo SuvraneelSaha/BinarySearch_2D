@@ -39,4 +39,13 @@ public class Three {
 // in the end there will be 2 rows remaining
 // STEPS :
 // 1]CHECK WHETHER THE MID COL YOU ARE AT CONTAINS    THE TARGET ELEMENT
-// 2] CONSIDER THE 4 PARTS 
+// 2] CONSIDER THE 4 PARTS
+// ie the left hand side part and also the right hand side part
+//
+
+//TIME COMPLEXITY :
+// 1] TOTAL SIZE OF THE COLUMNS WILL BE SIZE OF THE ROWS IF N x N -- N
+// BINARY SEARCH FOR N ELEMENTS IS LOG N
+// AGAIN WE ARE SEARCHING THE ROWS
+// THEN ALSO LOG N
+// TOTAL TIME COMPLEXITY IS LOG N + LOG N = 2 LOG N 
