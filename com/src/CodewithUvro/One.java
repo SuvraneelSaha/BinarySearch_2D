@@ -67,7 +67,7 @@ public class One {
 // time complexity is O(nxn)
 // cause both the rows and the columns are to be considered
 // say for ex - if size of the row was - n and the size of the col was m
-// then the time complexity would be n x m 
+// then the time complexity would be n x m
 // cause it is searching for every element
 // outer loop is for each rows
 // and the inner loop is for each column
