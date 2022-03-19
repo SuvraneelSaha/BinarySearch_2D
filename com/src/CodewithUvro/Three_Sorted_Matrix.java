@@ -2,9 +2,11 @@ package CodewithUvro;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Three_Sorted_Matrix {
     public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
 
         int[][] arr = {
                 {1,2,3,4},
@@ -12,7 +14,16 @@ public class Three_Sorted_Matrix {
                 {9,10,11,12},
                 {13,14,15,16}
         };
-        System.out.println(Arrays.toString(search(arr,99)));
+        System.out.println("please enter the target element");
+        int target = in.nextInt();
+        for(int[] num : arr)
+        {
+            System.out.println(Arrays.toString(num));
+
+        }
+
+        System.out.println("the index is " + Arrays.toString(search(arr,target)));
+
 
 
 
